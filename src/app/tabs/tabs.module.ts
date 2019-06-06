@@ -6,14 +6,16 @@ import { FormsModule } from '@angular/forms';
 import { TabsPageRoutingModule } from './tabs.router.module';
 
 import { TabsPage } from './tabs.page';
+import { CardDetailKeyframeComponent } from '../card-detail-keyframe/card-detail-keyframe';
 
 @NgModule({
-  imports: [
-    IonicModule,
-    CommonModule,
-    FormsModule,
-    TabsPageRoutingModule
-  ],
-  declarations: [TabsPage]
+    imports: [
+        IonicModule,
+        CommonModule,
+        FormsModule,
+        TabsPageRoutingModule
+    ],
+    declarations: [TabsPage, CardDetailKeyframeComponent],
+    entryComponents: [CardDetailKeyframeComponent]
 })
-export class TabsPageModule {}
+export class TabsPageModule { }

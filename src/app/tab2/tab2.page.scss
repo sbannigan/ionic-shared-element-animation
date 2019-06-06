@@ -1,1 +1,7 @@
-
+ion-card {
+    border-radius: 0;
+    img {
+        object-fit: cover;
+        height: 300px;
+    }
+}
